@@ -1,0 +1,82 @@
+html,
+body {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  // background-color: #fff;
+  background: transparent;
+}
+div,
+span,
+a,
+p,
+i {
+  box-sizing: border-box;
+  user-select: none;
+}
+a,
+img {
+  -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+input:focus {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+@font-face {
+  font-family: 'siyuanheiti'; //思源黑体
+  src: url('./siyuanheiti.ttf'); //引入字体
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  width: 100%;
+  height: 100%;
+  //max-width: 750px;
+}
+#app {
+  font-size: 0.36rem;
+  width: 100%;
+  height: 100%;
+}
+
+:root:root {
+  --van-popup-background: rgba(0, 0, 0, 0.75);
+}
+
+.text-flow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

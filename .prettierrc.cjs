@@ -1,0 +1,16 @@
+module.exports = {
+  plugins: ['@prettier/plugin-pug'],
+  printWidth: 120,
+  semi: false,
+  singleQuote: true,
+  jsxSingleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'all',
+  bracketSameLine: true,
+  consistent: 'preserve',
+  arrowParens: 'avoid',
+  useTabs: false,
+  bracketSpacing: true,
+  proseWrap: 'preserve',
+  endOfLine: 'lf',
+}

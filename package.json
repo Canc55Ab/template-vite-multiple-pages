@@ -1,0 +1,50 @@
+{
+  "name": "mass",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite -m staging",
+    "pre": "node buildJs/build-ing.js -m staging",
+    "build": "node buildJs/build-ing.js -m production",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --ext .js,.ts --fix --ignore-pattern .gitignore"
+  },
+  "dependencies": {
+    "@intlify/unplugin-vue-i18n": "^6.0.5",
+    "vant": "^4.9.19",
+    "vue": "^3.5.13",
+    "vue-i18n": "^11.1.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.24.0",
+    "@prettier/plugin-pug": "^3.3.0",
+    "@types/node": "^22.14.1",
+    "@vitejs/plugin-legacy": "^6.0.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/language-plugin-pug": "^2.2.8",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-vue": "^10.0.0",
+    "eslint-plugin-vue-pug": "^0.6.2",
+    "glob": "^11.0.2",
+    "globals": "^16.0.0",
+    "jiti": "^2.4.2",
+    "less": "^4.3.0",
+    "prettier": "^3.5.3",
+    "pug": "^3.0.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.30.1",
+    "vconsole": "^3.15.1",
+    "vite": "^6.2.0",
+    "vite-plugin-eslint2": "^5.0.3",
+    "vite-plugin-pug-transformer": "^1.0.7",
+    "vite-plugin-vconsole": "^2.1.1",
+    "vue-eslint-parser": "^10.1.3",
+    "vue-tsc": "^2.2.4"
+  }
+}

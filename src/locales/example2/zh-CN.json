@@ -1,0 +1,11 @@
+{
+  "example2": {
+    "title": "事例",
+    "content": {
+      "hello": "你好",
+      "world": "世界",
+      "welcome": "欢迎使用我们的应用程序！",
+      "description": "这是一个示例应用程序，演示如何使用国际化功能。"
+    }
+  }
+}
